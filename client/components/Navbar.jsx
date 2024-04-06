@@ -37,7 +37,7 @@ function Nav() {
                       className='flex-shrink-0 text-white uppercase text-4xl font-bold cursor-pointer'
                       onClick={() => router.push('/')}
                     >
-                      <img src='/logo.png' alt='Logo' className= 'h-12 w-auto'/>
+                      <img src='/logo.png' alt='Logo' className= 'h-[4.5rem] w-auto'/>
                     </div>
                     <div className='hidden md:block'>
                       <div className='ml-10 flex items-center space-x-4 '>
