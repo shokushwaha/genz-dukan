@@ -12,30 +12,38 @@
 ---
 
 <div align="center">
-<img  src = "./readme-assets/Homepage.png">
+<img  src = "./readme-assets/landing-page.png">
   </div>
 
 ---
 
 <div align="center" style="display:flex ">
-<img width="500px" src = "./readme-assets/flipkartgrid.png">
+<img width="500px" src = "./readme-assets/hackbyte.png">
 </div>
 <table>
   <tr>
-    <td><img width="500px" src = "./readme-assets/Productspage.png"></td>
-    <td><img width="500px" src = "./readme-assets/Accountpage.png"></td>
+    <td><img width="500px" src = "./readme-assets/3d-tryon-implementation.png"></td>
+    <td><img width="500px" src = "./readme-assets/3d-tryon.png"></td>
   </tr>
   <tr>
-    <td><img width="500px" src = "./readme-assets/Rewardspage.png"></td>
-    <td><img width="500px" src = "./readme-assets/TermsConditionspage.png"></td>
+    <td><img width="500px" src = "./readme-assets/rewards.png"></td>
+    <td><img width="500px" src = "./readme-assets/coupon-marketplace.png"></td>
   </tr>
   <tr>
-    <td><img width="500px" src = "./readme-assets/Cartpage.png"></td>
+    <td><img width="500px" src = "./readme-assets/confirmation.png"></td>
     <td><img width="500px" src = "./readme-assets/Chatbot.png"></td>
   </tr>
   <tr>
     <td><img width="500px" src = "./readme-assets/Adminpage.png"></td>
-    <td><img width="500px" src = "./readme-assets/Customization.png"></td>
+    <td><img width="500px" src = "./readme-assets/termaandconditions.png"></td>
+  </tr>
+  <tr>
+    <td><img width="500px" src = "./readme-assets/account-page.png"></td>
+    <td><img width="500px" src = "./readme-assets/all-products.png"></td>
+  </tr>
+  <tr>
+    <td><img width="500px" src = "./readme-assets/cart.png"></td>
+    <td><img width="500px" src = "./readme-assets/categories.png"></td>
   </tr>
 </table>
 
