@@ -138,9 +138,9 @@ NODE_ENV=""
 
 ### WEB 3.0 :
 
-- Hardhat <img width="35px" src = "./readme-assets/hardhat.png">
+- Hardhat <img width="35px" src = "./readme-assets/hardhat.jpeg">
   </div>
-- Mocha <img width="35px" src = "./readme-assets/mocha.svg">
+- Mocha <img width="35px" src = "./readme-assets/mocha.png">
   </div>
 - Solidity <img width="15px" src = "./readme-assets/solidity.png">
   </div>
