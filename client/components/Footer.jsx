@@ -71,7 +71,7 @@ const Footer = () => {
             </Stack>
 
             <div className='bg-neutral-900 flex items-center justify-center py-3 mt-4'>
-                &copy; 2023- Hack Wizards - Flipkart Grid 5.0 | All Rights Reserved
+               Genz-Dukaan &copy; 2024 | All Rights Reserved
             </div>
 
         </div>

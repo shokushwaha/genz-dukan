@@ -54,7 +54,7 @@ export default function Home({ featuredProduct, newProducts }) {
   return (
     <>
       <Head>
-        <title>NextZone - Home</title>
+        <title>Genz-Dukaan</title>
 
       </Head>
       <Toaster

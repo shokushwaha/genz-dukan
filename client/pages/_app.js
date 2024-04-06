@@ -7,7 +7,9 @@ body{
   background: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
   padding: 0;
   margin: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 `;
 export default function App({ Component, pageProps }) {

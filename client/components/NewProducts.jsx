@@ -41,13 +41,13 @@ const StyledTitle = styled.div`
 font-weight: 900;
 font-size: 2rem;
 padding-top: 20px;
-border-bottom: 2px solid black;
 display: flex;
 flex-direction: row;
 align-items: center;
 justify-content: center;
 padding-bottom: 4px;
 gap:10px;
+
 `;
 export default function NewProducts({ products }) {
 

@@ -116,7 +116,7 @@ const Carousel = () => {
 
     return (
         <>
-            <div className='flex flex-col item-center justify-center gap-4 bg-gray-400/40 pb-4 mb-[-24px] mt-20'>
+            <div className='flex flex-col item-center justify-center gap-4 bg-[#D8D9DA] pb-4 mb-[-24px] mt-20'>
                 <div>
                     <h1 className="text-3xl font-bold text-center mt-10">Customer Reviews</h1>
                 </div>

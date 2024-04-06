@@ -5,6 +5,7 @@ import Center from './Center';
 import { CartContext } from './CartContext';
 import { useRouter } from 'next/router';
 import { motion } from 'framer-motion';
+import logo from '/public/logo.png'
 const StyledHeader = styled.header`
   background-color: #222;
 position: sticky;
@@ -113,12 +114,12 @@ export default function Header() {
                         initial={{ opacity: 0, y: "-200px" }}
                         animate={{ opacity: 1, y: "0px" }}
                         exit={{ opacity: 0, y: "-200px" }}
-                        transition={{ duration: 1 }}
+                        transition={{ duration: 2 }}
                     >
 
                         <Wrapper >
 
-                            <Logo href={'/'}>NextZone</Logo>
+                            <Logo href={'/'}><Image src={logo}/></Logo>
 
 
 

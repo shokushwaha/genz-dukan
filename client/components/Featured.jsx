@@ -17,13 +17,21 @@ padding: 40px 0px;
 const Title = styled.h1`
   margin:0;
   font-weight  :normal  ;
-  font-size: 2rem;
+  font-size: 3rem;
+  line-height:3rem;
   padding: 10px 0px;
+font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
 `;
 
 const Desc = styled.p`
    color: #aaa;
-   font-size: 0.8rem;
+   font-size: 1rem;
+    font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height:1.7rem
 
 `;
 
@@ -63,6 +71,9 @@ box-shadow: 0px 10px 10px gray;
 transition: all;
 transition-duration: 200ms;
 mix-blend-mode: multiply;
+height:24rem;
+width:24rem;
+<margin-top:-0 className="25"></margin-top:-0>rem
 :hover{
     transform: translateY(-4px);
     transform: scale(1.05);
@@ -94,10 +105,10 @@ export default function Featured({ product }) {
                     >
                         <Wrapper>
                             <Column>
-                                <div className="flex flex-col items-center justify-center pt-8 ">
+                                <div className="flex flex-col items-center justify-center mt-[-1rem] h-[38rem]">
 
                                     <Title>{product.title}</Title>
-                                    <Desc>{product.description.substring(0, 500)}...</Desc>
+                                    <Desc>{product.description.substring(0, 700)}...</Desc>
                                     <ButtonWrapper>
                                         <ButtonLink white outlined href={'/product/' + product._id}>
                                             Read More</ButtonLink>
@@ -115,7 +126,7 @@ export default function Featured({ product }) {
                             <Column>
                                 <Tilt>
                                     
-                                <StyledImage src="https://res.cloudinary.com/dt21djrjq/image/upload/v1691917562/yymttc4usxa1foowi9jq.jpg" alt="featured image" className="w-[300px]"/>
+                                <StyledImage src="https://res.cloudinary.com/dt21djrjq/image/upload/v1691917562/yymttc4usxa1foowi9jq.jpg" alt="featured image" className="w-[300px] mt-[5rem]"/>
                                 </Tilt>
 
 
