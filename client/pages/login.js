@@ -158,7 +158,7 @@ export default function Login() {
 
                     class="relative overflow-hidden md:flex w-1/2 bg-gradient-to-tr from-gray-500 to-zinc-900 i justify-around items-center hidden">
                     <div>
-                        <h1 class="text-white font-bold text-8xl mb-4 font-sans">Dukaan</h1>
+                        <h1 class="text-white font-bold text-8xl mb-4 font-sans">Genz-Dukaan</h1>
                         <p class="text-white mt-1 text-4xl">The Next Gen Marketplace</p>
                     </div>
                     <div class="absolute -bottom-32 -left-40 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8"></div>

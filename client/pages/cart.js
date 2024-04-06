@@ -305,7 +305,7 @@ export default function CartPage() {
         return (
             <>
                 <Head>
-                    <title>NextZone - Cart</title>
+                    <title>Cart</title>
 
                 </Head>
                 <Nav />
