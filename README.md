@@ -88,7 +88,7 @@ Our project is a pioneering Gen Z marketplace that redefines the online shopping
 ---
 
 ```
-1. git clone https://github.com/shokushwaha/Grid-HackWizards.git
+1. git clone https://github.com/shokushwaha/genz-dukan
 
 2. cd client
 
@@ -115,7 +115,7 @@ OPENAI_API=""
 ---
 
 ```
-1. git clone https://github.com/shokushwaha/Grid-HackWizards.git
+1. git clone https://github.com/shokushwaha/genz-dukan
 
 2. cd admin
 
