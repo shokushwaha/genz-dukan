@@ -1,3 +1,4 @@
+"use client"
 import { CartContext } from "@/components/CartContext";
 import Center from "@/components/Center";
 import Header from "@/components/Header";
