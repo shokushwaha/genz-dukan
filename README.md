@@ -53,9 +53,9 @@
 
 ---
 
-Blockchain based: Loyalty & Reward Program using Fungible Token
+A Genz Ecommerce Platform with 3D tryon and Rewards Program
 
-Our project is a cutting-edge Gen Z marketplace that combines innovative technology with seamless user experience to redefine online shopping. With features such as 3D try-on for T-shirts, a Token Rewards System, and a secure NFT marketplace, we aim to provide users with a unique and rewarding shopping journey.
+Our project is a pioneering Gen Z marketplace that redefines the online shopping experience through the integration of cutting-edge technology and user-centric design principles. With an array of innovative features tailored to meet the evolving needs of modern consumers, we strive to create a platform that not only facilitates transactions but also fosters engagement and loyalty while upholding principles of digital anonymity.
 
 <br>
 
