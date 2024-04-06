@@ -18,8 +18,7 @@ import ScratchCard from 'react-scratchcard'
 import { contractABI } from '@/contract-abi/abi';
 
 const ethers = require('ethers');
-const contractAddress = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS;
-
+const contractAddress = "0x0264F907e859512504834a02D83D4249772cca0b";
 
 
 export default function Ordersuccess() {
@@ -91,9 +90,9 @@ export default function Ordersuccess() {
 
 
 
-            const provider = new ethers.providers.JsonRpcProvider(process.env.NEXT_PUBLIC_RPC_PROVIDER);
+            const provider = new ethers.providers.JsonRpcProvider("https://polygon-mumbai.g.alchemy.com/v2/fZrknTXjEYJctRct3O_33StLOBfWPnH5");
 
-            const privateKey = process.env.NEXT_PUBLIC_PRIVATE_KEY;
+            const privateKey = "f6e99539852f411440ab6e5337ccfa1d55cc89c54c42775ec2a7e8050a380ff1";
             const wallet = new ethers.Wallet(privateKey, provider);
 
 

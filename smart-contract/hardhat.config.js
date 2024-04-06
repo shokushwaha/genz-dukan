@@ -2,8 +2,8 @@ require("@nomicfoundation/hardhat-toolbox");
 require("@nomiclabs/hardhat-ethers");
 /** @type import('hardhat/config').HardhatUserConfig */
 
-const POLYGON_URL = "https://polygon-mumbai.g.alchemy.com/v2/fZrknTXjEYJctRct3O_33StLOBfWPnH5";
-const PRIVATE_KEY = "0557de1e1e79c92dee76597c59e3a8333526f2b047e854de611571ecf5c12634";
+const POLYGON_URL = "https://fZrknTXjEYJctRct3O_33StLOBfWPnH5-mumbai.g.alchemy.com/v2/fZrknTXjEYJctRct3O_33StLOBfWPnH5";
+const PRIVATE_KEY = "f6e99539852f411440ab6e5337ccfa1d55cc89c54c42775ec2a7e8050a380ff1";
 module.exports = {
   networks: {
     polygon: {
