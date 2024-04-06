@@ -166,8 +166,8 @@ Thanks goes to these wonderful people ❤️
   <tr>
     <td align="center"><a href="https://github.com/shokushwaha"><img src="https://avatars.githubusercontent.com/u/109756367?v=4" width="100px;" alt=""/><br /><sub><b>Shobhit Kushwaha</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/RishabhSharma96"><img src="https://avatars.githubusercontent.com/u/114917946?v=4" width="100px;" alt=""/><br /><sub><b>Rishabh Sharma</b></sub></td>
-    <td align="center"><a href="https://github.com/rohitsinghh01"><img src="https://avatars.githubusercontent.com/u/133227948?v=4" width="100px;" alt=""/><br /><sub><b>Ayush Sharma</b></sub></td>
-      <td align="center"><a href="https://github.com/maheshpulivarthi18"><img src="https://avatars.githubusercontent.com/u/134507390?v=4" width="100px;" alt=""/><br /><sub><b>Ayush Sharma</b></sub></td>
+    <td align="center"><a href="https://github.com/rohitsinghh01"><img src="https://avatars.githubusercontent.com/u/133227948?v=4" width="100px;" alt=""/><br /><sub><b>Rohit Raj</b></sub></td>
+      <td align="center"><a href="https://github.com/maheshpulivarthi18"><img src="https://avatars.githubusercontent.com/u/134507390?v=4" width="100px;" alt=""/><br /><sub><b>Pulivarthi Mahesh</b></sub></td>
   </tr>
 </table>
 
