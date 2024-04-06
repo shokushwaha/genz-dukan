@@ -4,7 +4,10 @@ const CouponSchema = new mongoose.Schema({
     code: {
         type: String,
     },
-    imageurl: {
+    img: {
+        type: String,
+    },
+    immg: {
         type: String,
     }
 });

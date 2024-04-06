@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Navbar from '../components/Navbar'
 import axios from 'axios'
 
@@ -6,6 +6,21 @@ const coupons = () => {
 
     const [code, setCode] = useState('')
     const [imageurl, setImageurl] = useState('')
+
+    const [prevCoups, setPrevCoups] = useState([]);
+
+    const fetchCoupons = async () => {
+        try {
+            const response = await axios.get('/api/coupons');
+            setPrevCoups(response.data);
+        } catch (err) {
+            console.error('Error fetching coupons:', err.message);
+        }
+    }
+
+    useEffect(() => {
+        fetchCoupons();
+    }, [])
 
     const handlefileUpload = async (e) => {
         const files = e.target.files;
@@ -25,25 +40,25 @@ const coupons = () => {
         })
     }
 
-const handleCouponSubmit = async (e) => { 
-    e.preventDefault();
-    try {
-        await axios.post('/api/addcoupon', {
-            code: code, 
-            imageurl: imageurl
-        });
-        console.log('Coupon added successfully');
-    } catch (err) {
-        console.error('Error adding coupon:', err.message);
-    }
-};
+    const handleCouponSubmit = async (e) => {
+        e.preventDefault();
+        try {
+            await axios.post('/api/addcoupon', {
+                code: code,
+                imageurl: imageurl
+            });
+            console.log('Coupon added successfully');
+        } catch (err) {
+            console.error('Error adding coupon:', err.message);
+        }
+    };
 
 
     return (
-        <div className='overflow-hidden'>
+        <div className=''>
             <Navbar />
-            <div className='flex w-[100vw] items-center justify-center'>
-                <form onSubmit={handleCouponSubmit} class="bg-white w-[35%] p-10 rounded-lg m-8">
+            <div className='flex flex-col h-[100vh] w-[100vw] items-center'>
+                <form onSubmit={handleCouponSubmit} class="bg-white w-[35%] p-10 rounded-lg m-8 h-[22rem]">
                     <h1 class="text-gray-800 font-bold text-4xl mb-1">Have any Extra coupons?</h1>
                     <p class="text-xl font-normal text-gray-600 mb-7">Why not earn money by selling those..</p>
                     <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
@@ -64,11 +79,31 @@ const handleCouponSubmit = async (e) => {
                                     d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
                             </svg>
                             <input type="file" className='hidden' onChange={(e) => handlefileUpload(e)} />
-                        </label>
+                        </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span className='overflow-hidden'>
+                            {imageurl === "" ? "No file selected" : imageurl}
+                        </span>
                     </div>
                     <button type="submit" class="block w-full bg-indigo-600 mt-4 py-2 rounded-2xl text-white font-semibold mb-4">Sell</button>
                 </form>
+                <div className='flex justify-around gap-3'>
+
+                {prevCoups.map((coupon, index) => {
+                    return (
+                        
+                            <div class="bg-white w-[12rem] p-3 rounded-lg m-4 flex justify-center items-center flex-col">
+                                <img src={coupon.immg} class="w-[11rem] h-[100px]" />
+                                <button class="text-white bg-blue-500 mt-3 w-[4rem] rounded-md">BUY</button>
+                        </div>
+                
+            )
+        }
+    )}
+    </div>
             </div>
+
+
+
         </div>
     )
 }

@@ -7,20 +7,23 @@ export default async function handler(req, res) {
     if (req.method === 'POST') {
         const { code, imageurl } = req.body;
 
+        console.log({ code, imageurl })
+
         try {
             const newCoupon = new Coupon({
                 code,
-                imageurl
+                immg: imageurl,
+                img: imageurl
             });
 
             const savedCoupon = await newCoupon.save();
             console.log(savedCoupon)
-            res.status(201).json(savedCoupon); // Respond with savedCoupon
+            res.status(201).json(savedCoupon);
         } catch (error) {
             console.error('Error saving coupon:', error);
-            res.status(500).json({ error: 'Internal server error' }); // Handle internal server error
+            res.status(500).json({ error: 'Internal server error' });
         }
     } else {
-        res.status(405).json({ error: 'Method Not Allowed' }); // Respond with Method Not Allowed for non-POST requests
+        res.status(405).json({ error: 'Method Not Allowed' });
     }
 }
