@@ -1,11 +1,11 @@
 <div align = "center">
 
-<h1 align="center"> <font size="5"> <b> NextZone </b></h1>
+<h1 align="center"> <font size="5"> <b> Genz-Dukaan </b></h1>
 <!-- PROJECT LOGO -->
 
-<h2><b>🔗 Ecommerce Platform with Blockchain Based Loyalty & Rewards System</b></h2>
+<h2><b>🔗 The Next Gen Ecommerce Platform </b></h2>
 
-# [DEMO LINK](https://drive.google.com/file/d/1up9XXv_xYeLFXHX-9C7JZwEFGXxm76XT/view?usp=sharing)
+# [DEMO LINK](https://drive.google.com/file/d/1up9XXv_xYeLFXHX-9C7JZwEFGXxm76XT/view?usp=sharing) TBA
 
   </div>
   
