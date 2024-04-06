@@ -97,8 +97,7 @@ const Rewards = () => {
             }
 
             <div className='flex items-center justify-center text-4xl py-2 mt-2 text-neutral-800 font-extrabold'>
-
-                NextZone Rewards
+                Rewards
             </div>
 
             {/* <Center> */}
