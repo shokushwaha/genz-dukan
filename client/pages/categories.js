@@ -1,11 +1,7 @@
-import Center from '@/components/Center'
-import Header from '@/components/Header'
+
 import { mongooseConnect } from '@/lib/mongoose'
 import { Product } from '@/models/Product'
 import React, { useState, useEffect, useRef } from 'react'
-import Catprod from '@/components/Catprod'
-import CatIcon from '@/components/icons/CatIcon'
-import { motion } from 'framer-motion'
 import styled from 'styled-components'
 import Nav from '@/components/Navbar'
 import Head from 'next/head'

@@ -1,3 +1,4 @@
+
 import { CartContext } from '@/components/CartContext';
 import Center from '@/components/Center'
 import Footer from '@/components/Footer';

@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from 'react'
 import Navbar from '../components/Navbar'
 import axios from 'axios'
@@ -88,18 +89,18 @@ const coupons = () => {
                 </form>
                 <div className='flex justify-around gap-3'>
 
-                {prevCoups.map((coupon, index) => {
-                    return (
-                        
+                    {prevCoups.map((coupon, index) => {
+                        return (
+
                             <div class="bg-white w-[12rem] p-3 rounded-lg m-4 flex justify-center items-center flex-col">
                                 <img src={coupon.immg} class="w-[11rem] h-[100px]" />
                                 <button class="text-white bg-blue-500 mt-3 w-[4rem] rounded-md">BUY</button>
-                        </div>
-                
-            )
-        }
-    )}
-    </div>
+                            </div>
+
+                        )
+                    }
+                    )}
+                </div>
             </div>
 
 

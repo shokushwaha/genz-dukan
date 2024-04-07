@@ -1,3 +1,4 @@
+
 import { CartContext } from '@/components/CartContext';
 import Featured from '@/components/Featured'
 import Header from '@/components/Header'

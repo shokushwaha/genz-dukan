@@ -76,11 +76,11 @@ export default function ProductsPage({ products }) {
                                     </svg>
                                 </div>
                                 <input type="text" value={searchTerm} onChange={handleSearch} id="voice-search" class="bg-gray-50 border border-gray-300 text-neutral-100 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-[500px] pl-10 p-2.5  dark:bg-neutral-800 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search by product name" required />
-                                    <button type="button" class="absolute inset-y-0 right-[-0px] flex items-center pr-3">
-                                        <svg class="w-4 h-4 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 20">
-                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7v3a5.006 5.006 0 0 1-5 5H6a5.006 5.006 0 0 1-5-5V7m7 9v3m-3 0h6M7 1h2a3 3 0 0 1 3 3v5a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V4a3 3 0 0 1 3-3Z" />
-                                        </svg>
-                                    </button>
+                                <button type="button" class="absolute inset-y-0 right-[-0px] flex items-center pr-3">
+                                    <svg class="w-4 h-4 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 20">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7v3a5.006 5.006 0 0 1-5 5H6a5.006 5.006 0 0 1-5-5V7m7 9v3m-3 0h6M7 1h2a3 3 0 0 1 3 3v5a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V4a3 3 0 0 1 3-3Z" />
+                                    </svg>
+                                </button>
                             </div>
                             <button type="submit" class="inline-flex items-center justify-center py-2.5 px-3 ml-2 text-sm font-medium text-white bg-yellow-600 rounded-lg border border-yellow-500 hover:bg-b-yellow-600 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-yellow-500 dark:focus:ring-blue-800 right-[200px] w-[15%]">
                                 <svg class="w-4 h-4 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
