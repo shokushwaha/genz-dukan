@@ -264,7 +264,7 @@ export default function ProductPage({ product }) {
                                             Add To Cart</span>
                                     </button>
 
-                                    <form className="flex flex-col items-center justify-center bg-red-400 border-10" onSumbit={buyAtLowPrice}>
+                                    <form className="flex flex-col items-center justify-center border-10" onSumbit={buyAtLowPrice}>
                                         <h1>Buy at Low Price</h1>
                                         <input type="number" placeholder="Price" value={limitPrice} onChange={e => setLimitPrice(e.target.value)} className="rounded-md"></input>
                                         <button type="submit">Place Order at ₹{limitPrice}</button>
