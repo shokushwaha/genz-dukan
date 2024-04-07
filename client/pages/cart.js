@@ -175,8 +175,8 @@ export default function CartPage() {
     let dp = 0
     for (const productId of cartProducts) {
 
-        const price = products.find(p => p._id === productId)?.price || 0;
-        const tempDp = products.find(p => p._id === productId)?.discount || 0;
+        const price = products.find(p => p?._id === productId)?.price || 0;
+        const tempDp = products.find(p => p?._id === productId)?.discount || 0;
         console.log(tempDp)
         total += price;
         dp = dp + Math.floor((price - (price * tempDp) / 100))
