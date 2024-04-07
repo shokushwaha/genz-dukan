@@ -34,8 +34,8 @@
     <td><img width="500px" src = "./readme-assets/Chatbot.png"></td>
   </tr>
   <tr>
-    <td><img width="500px" src = "./readme-assets/Adminpage.png"></td>
-    <td><img width="500px" src = "./readme-assets/termaandconditions.png"></td>
+    <td><img width="500px" src = "./readme-assets/Adminpanel.png"></td>
+    <td><img width="500px" src = "./readme-assets/termsandconditions.png"></td>
   </tr>
   <tr>
     <td><img width="500px" src = "./readme-assets/account-page.png"></td>
