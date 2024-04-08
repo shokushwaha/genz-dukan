@@ -3,9 +3,9 @@
 <h1 align="center"> <font size="5"> <b> Genz-Dukaan </b></h1>
 <!-- PROJECT LOGO -->
 
-<h2><b>🔗 The Next Gen Ecommerce Platform </b></h2>
+<h2><b>🔗 The Next Gen Marketplace</b></h2>
 
-# [DEMO LINK](https://drive.google.com/file/d/1up9XXv_xYeLFXHX-9C7JZwEFGXxm76XT/view?usp=sharing) TBA
+# [DEMO LINK](https://youtu.be/YqVNQXkV5kg)
 
   </div>
   
