@@ -5,7 +5,7 @@
 
 <h2><b>🔗 The Next Gen Marketplace</b></h2>
 
-# [DEMO LINK](https://youtu.be/YqVNQXkV5kg) TBA
+# [DEMO LINK](https://youtu.be/YqVNQXkV5kg)
 
   </div>
   
