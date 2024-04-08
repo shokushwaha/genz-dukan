@@ -90,7 +90,7 @@ export default function Account() {
 
 
     const handleCopyClick = () => {
-        const textToCopy = `http://localhost:3001/register?account=${currentAccount}`;
+        const textToCopy = `http://localhost:3000/register?account=${currentAccount}`;
         try {
             navigator.clipboard.writeText(textToCopy);
             setCopied(true);
